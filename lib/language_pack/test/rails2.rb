@@ -53,7 +53,7 @@ FILE
 
   private
   def db_prepare_test_rake_tasks
-    [rake.task("parallel:create"), rake.task("parallel:prepare")]
+    [rake.task("parallel:create"), rake.task("parallel:migrate")]
   end
 
 
