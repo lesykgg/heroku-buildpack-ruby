@@ -53,7 +53,7 @@ FILE
 
   private
   def db_prepare_test_rake_tasks
-    [rake.task("parallel:prepare[#{ENV["PARALLEL_TEST_PROCESSORS"]}]")]
+    [rake.task("parallel:prepare")]
   end
 
 
